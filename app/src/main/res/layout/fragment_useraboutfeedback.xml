@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mypc.universitymanagement3.useraboutfeedback">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT FEEDBACK"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="#1c097b"
+        android:layout_marginLeft="80dp"
+
+        />
+
+    <Button
+            android:id="@+id/ub6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="requestresults"
+            android:text="faculty feedback"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="80dp"/>
+
+        <Button
+            android:id="@+id/ub8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="requestresults"
+            android:text="Mess feedback"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="80dp"
+            />
+
+    <Button
+        android:id="@+id/ub7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="80dp"
+        android:onClick="requestresults"
+        android:text="connectiviity feedback" />
+
+    <Button
+        android:id="@+id/ub5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:onClick="requestresults"
+        android:text="subject feedback" />
+</FrameLayout>

@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mypc.universitymanagement3.hodaboutdepartment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT DEPARTMENT"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="#1c097b"
+        android:layout_marginLeft="60dp"
+
+        />
+    <Button
+        android:id="@+id/ub1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="viewe1"
+        android:text="E1 BATCH" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="E2 BATCH"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/ub3"
+        android:onClick="viewe2"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:text="E3 BATCH"
+        android:id="@+id/ub2"
+        android:onClick="viewe3"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="100dp"
+        android:text="E3 BATCH"
+        android:id="@+id/ub4"
+        android:onClick="viewe4"
+        />
+</FrameLayout>

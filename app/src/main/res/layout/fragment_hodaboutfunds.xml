@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mypc.universitymanagement3.hodaboutfunds">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT FUNDS"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="#1c097b"
+        android:layout_marginLeft="90dp"
+
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="fund sanction"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/ub3"
+        android:onClick="fundsan"
+        />
+
+    <Button
+        android:id="@+id/ub1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:onClick="fundstatus"
+        android:text="Fund status checking" />
+</FrameLayout>

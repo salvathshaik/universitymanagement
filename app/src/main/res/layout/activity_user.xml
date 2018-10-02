@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mypc.universitymanagement3.user">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="welcome *user*"
+    android:textColor="#ff00"
+    android:textSize="28sp"
+    android:textStyle="italic"
+    android:gravity="center_horizontal"
+    android:id="@+id/ut1"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textColor="#ff00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:id="@+id/t2"
+        android:layout_below="@+id/ut1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textColor="#ff00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/ut4"
+        android:layout_below="@+id/ut5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="view results"
+       android:id="@+id/ub1"
+       android:onClick="viewresults"
+       android:layout_marginLeft="49dp"
+       android:layout_marginStart="49dp"
+       android:layout_above="@+id/ub2"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Request results"
+    android:id="@+id/ub2"
+    android:onClick="requestresults"
+        android:layout_above="@+id/ub3"
+        android:layout_alignLeft="@+id/ub1"
+        android:layout_alignStart="@+id/ub1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fund request"
+        android:id="@+id/ub3"
+        android:onClick="requestresults"
+        android:layout_above="@+id/ut2"
+        android:layout_alignLeft="@+id/ub2"
+        android:layout_alignStart="@+id/ub2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit your feedback"
+        android:textColor="#ff00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/ut2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="subject feedback"
+        android:id="@+id/ub5"
+        android:onClick="requestresults"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/ut2"
+        android:layout_alignLeft="@+id/ub2"
+        android:layout_alignStart="@+id/ub2" />
+
+        <Button
+            android:id="@+id/ub6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ub7"
+            android:layout_alignStart="@+id/ub7"
+            android:layout_below="@+id/ub7"
+            android:onClick="requestresults"
+            android:text="faculty feedback" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ut2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+
+
+    <Button
+            android:id="@+id/ub7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:onClick="requestresults"
+        android:text="connectiviity feedback"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignRight="@+id/ub2"
+        android:layout_alignEnd="@+id/ub2" />
+
+    <Button
+    android:id="@+id/ub8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:onClick="requestresults"
+        android:text="Mess feedback"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_alignTop="@+id/ub7"
+        android:layout_toRightOf="@+id/ub7"
+        android:layout_toEndOf="@+id/ub7" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit your compliants"
+        android:textColor="#ff00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/ut3"
+        android:layout_above="@+id/ub9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/ub9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="requestresults"
+        android:text="about academics"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/ub10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="home"
+        android:text="home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

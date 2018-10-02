@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">universitymanagement3</string>
+    <string-array name="choose_interface">
+        <item>User viewer</item>
+        <item>Hod viewer</item>
+        <item>instructor viewer</item>
+        <item>secratary viewer</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

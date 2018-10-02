@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mypc.universitymanagement3.instructorboutprojects">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="project details"
+        android:textColor="#263238"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/it3"
+        android:layout_marginTop="100dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:text="student projects"
+        android:id="@+id/ub5"
+        android:onClick="studentpj"
+        android:layout_marginTop="150dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:text="faculty projects"
+        android:id="@+id/ub6"
+        android:layout_marginTop="200dp"
+        android:onClick="facultypj"
+        />
+</FrameLayout>

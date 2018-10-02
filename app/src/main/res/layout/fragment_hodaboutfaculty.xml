@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mypc.universitymanagement3.hodaboutfaculty">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FACULTY DETAILS"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="#1c097b"
+        android:layout_marginLeft="80dp"
+
+        />
+    <Button
+        android:id="@+id/ub1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="aboutus"
+        android:text="ABOUT US" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="fACULTY PUBLICATIONS"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/ub3"
+        android:onClick="facpub"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:text="Projects"
+        android:id="@+id/ub2"
+        android:onClick="facproj"
+        />
+</FrameLayout>

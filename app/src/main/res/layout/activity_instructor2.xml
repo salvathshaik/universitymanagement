@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rgu6"
+    tools:context="com.example.mypc.universitymanagement3.instructor2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome *instructor*"
+        android:gravity="center_horizontal"
+        android:textColor="#263238"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/it1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="insructorname"
+        android:textColor="#263238"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:id="@+id/ut5"
+        android:layout_below="@+id/it1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Results"
+        android:textColor="#263238"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/it2"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/ut5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mid results"
+        android:id="@+id/ub1"
+        android:onClick="viewmidresults"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_below="@+id/it2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sem results"
+        android:id="@+id/ub2"
+        android:onClick="requestresults"
+        android:layout_below="@+id/ub1"
+        android:layout_alignLeft="@+id/ub1"
+        android:layout_alignStart="@+id/ub1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fresh modes"
+        android:id="@+id/ub3"
+        android:onClick="requestresults"
+        android:layout_below="@+id/ub2"
+        android:layout_alignRight="@+id/ub2"
+        android:layout_alignEnd="@+id/ub2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remedials"
+        android:id="@+id/ub4"
+        android:onClick="requestresults"
+        android:layout_alignLeft="@+id/ub3"
+        android:layout_alignStart="@+id/ub3"
+        android:layout_below="@+id/ub3" />
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="project details"
+        android:textColor="#263238"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/it3"
+        android:layout_below="@+id/ub4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="student projects"
+        android:id="@+id/ub5"
+        android:onClick="viewresults"
+        android:layout_below="@+id/it3"
+        android:layout_alignLeft="@+id/ub4"
+        android:layout_alignStart="@+id/ub4"
+        android:layout_marginTop="12dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="faculty projects"
+        android:id="@+id/ub6"
+        android:onClick="requestresults"
+        android:layout_below="@+id/ub5"
+        android:layout_alignLeft="@+id/ub2"
+        android:layout_alignStart="@+id/ub2" />
+    <Button
+        android:id="@+id/ub10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="home"
+        android:text="home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

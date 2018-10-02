@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rgu6"
+    tools:context="com.example.mypc.universitymanagement3.instructoraboutviewresults">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome *instructor*"
+        android:gravity="center_horizontal"
+        android:textColor="#263238"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/it1"
+         />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="mid results"
+        android:id="@+id/ub1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="viewmidresults"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="sem results"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/ub2"
+        android:onClick="semresultsann"
+         />
+    <Button
+        android:id="@+id/ub10"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="280dp"
+        android:onClick="home"
+        android:text="home" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="fresh modes"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/ub3"
+        android:onClick="freshmodeann"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="remedials"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/ub4"
+        android:onClick="remann"
+       />
+
+    <TextView
+        android:id="@+id/ut5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="insructorname"
+        android:textColor="#263238"
+        android:layout_marginTop="18dp"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+</FrameLayout>

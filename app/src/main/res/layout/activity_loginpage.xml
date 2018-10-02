@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rgu3"
+    tools:context="com.example.mypc.universitymanagement3.loginpage">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="43dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="Welcome to RGUKT"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="14dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="R.K.Valley"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:text="UNIVERSITY MANAGEMENT"
+        android:textColor="#2650da"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="29dp"
+        android:text="Enter Credentials"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        android:textColor="#0a0111"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center_horizontal"
+        android:hint="enter id number here"
+        android:layout_below="@+id/t1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/e1"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center_horizontal"
+        android:hint="enter name here" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="29dp"
+        android:background="@android:color/darker_gray"
+        android:onClick="launch"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/e2"
+        android:layout_alignStart="@+id/textView9" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b1"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@+id/b1"
+        android:background="@android:color/darker_gray"
+        android:onClick="registerlogin"
+        android:text="register"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

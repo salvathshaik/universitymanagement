@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mypc.universitymanagement3.secratary">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome *secratary*"
+        android:gravity="center_horizontal"
+        android:textColor="#ff00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/st1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="secrataryname"
+        android:textColor="#ff00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:id="@+id/ut5"
+        android:layout_below="@+id/st1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Results verification"
+
+        android:textColor="#ff00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/st2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="156dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Results for verifying"
+        android:id="@+id/sb1"
+        android:onClick="viewresults"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/st2"
+        android:layout_alignLeft="@+id/sb2"
+        android:layout_alignStart="@+id/sb2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anounce Reslts"
+        android:id="@+id/sb2"
+        android:onClick="requestresults"
+        android:layout_below="@+id/sb1"
+        android:layout_alignLeft="@+id/st2"
+        android:layout_alignStart="@+id/st2" />
+    <Button
+        android:id="@+id/ub10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="home"
+        android:text="home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

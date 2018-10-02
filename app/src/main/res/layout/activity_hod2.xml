@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rgu2"
+    tools:context="com.example.mypc.universitymanagement3.hod2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome *HOD*"
+        android:textColor="#ff3d00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:id="@+id/ht1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hodname"
+        android:textColor="#ff3d00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:id="@+id/ut5"
+        android:layout_below="@+id/ht1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view your department details"
+        android:textColor="#ff3d00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:id="@+id/ht2"
+        android:layout_below="@+id/ut5"
+        android:layout_alignParentStart="true" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/ht2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp">
+
+        <Button
+            android:id="@+id/hb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ht2"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="e1details"
+            android:text="E1" />
+
+        <Button
+            android:id="@+id/hb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/hb3"
+            android:layout_alignTop="@+id/hb1"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/hb1"
+            android:layout_toRightOf="@+id/hb1"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="e2details"
+            android:text="E2" />
+
+        <Button
+            android:id="@+id/hb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hb1"
+            android:layout_alignBottom="@+id/hb1"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/hb2"
+            android:layout_toRightOf="@+id/hb2"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="e3details"
+            android:text="E3" />
+
+        <Button
+            android:id="@+id/hb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hb3"
+            android:layout_alignBottom="@+id/hb3"
+            android:layout_toEndOf="@+id/hb3"
+            android:layout_toRightOf="@+id/hb3"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="e4details"
+            android:text="E4" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Funds"
+        android:textColor="#ff3d00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/ht3"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/hb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="47dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="fundrequest"
+        android:text="Fund request checking"
+        android:layout_below="@+id/ht3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:id="@+id/hb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="fundsanction"
+        android:text="Fund sanction"
+        android:layout_alignBaseline="@+id/hb5"
+        android:layout_alignBottom="@+id/hb5"
+        android:layout_alignEnd="@+id/linearLayout2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Faculty"
+        android:textColor="#ff3d00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/ht4"
+        android:layout_below="@+id/hb5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/hb7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="facultydetails"
+        android:text="faculty details"
+        android:layout_below="@+id/ht4"
+        android:layout_alignStart="@+id/hb5"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/hb8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="facultypublications"
+        android:text="faculty publications"
+        android:layout_below="@+id/hb7"
+        android:layout_toStartOf="@+id/hb6"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/hb9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="projects"
+        android:text="projects"
+        android:layout_alignBaseline="@+id/hb7"
+        android:layout_alignBottom="@+id/hb7"
+        android:layout_toEndOf="@+id/hb5" />
+
+    <Button
+        android:id="@+id/ub10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#cdf74f"
+        android:onClick="home"
+        android:text="home" />
+</RelativeLayout>

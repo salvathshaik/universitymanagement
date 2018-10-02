@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rgu8"
+    tools:context="com.example.mypc.universitymanagement3.secratary2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome *secratary*"
+        android:gravity="center_horizontal"
+        android:textColor="#ff00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/st1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="secrataryname"
+        android:textColor="#ff00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:id="@+id/ut5"
+        android:layout_below="@+id/st1"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Results verification"
+        android:gravity="center_horizontal"
+        android:textColor="#ff00"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:id="@+id/st2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="156dp" />
+
+    <Button
+        android:id="@+id/sb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:background="@color/colorAccent"
+        android:onClick="viewresults"
+        android:text="View Results for verifying"
+        android:layout_below="@+id/st2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/sb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sb1"
+        android:layout_below="@+id/sb1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="38dp"
+        android:background="@color/colorAccent"
+        android:onClick="announceress"
+        android:text="Anounce Reslts" />
+
+</RelativeLayout>
